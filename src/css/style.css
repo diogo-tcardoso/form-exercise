@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/background.png);
+    background-size: 10vh;
+}
+
+.text {
+    background-image: none;
+    margin-right: 30px;
+}
+.text h1{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    width: 288px;
+}
+
+.text p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 300px;
+}
+
+.form {
+    width: 340px;
+    height: 378px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 15px;
+}
+
+.form #name, .form #email, .form #phone {
+    width: 298px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+.form #name {
+    margin: 20px 0 0px 20px;
+}
+
+.form #email, .form #phone {
+    margin-left: 20px;
+}
+
+.form #message {
+    width: 298px;
+    height: 100px;
+    margin: 0px 0 0 20px;
+    font-size: 15px;
+    font-weight: 500;
+    resize: none;
+    padding: 8px; 
+}
+
+.form .obrigatorio {
+    margin: -10px 0 20px 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form .error {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    margin: -15px 0 -3px 20px;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.form #enviar {
+    width: 298px;
+    height: 41px;
+    margin: -25px 0 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #3CCC87;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.valid {
+    border: 1px solid #3CCC87;
+    border-radius: 5px;
+}
+
+.invalid {
+    border: 1px solid #F52E2E;
+    border-radius: 5px;
+}
